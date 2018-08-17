@@ -1,0 +1,44 @@
+
+
+.intro img{
+    width: 970px;
+    height: 250px;
+    margin-top: 300px;
+    margin-left: 200px;
+
+}
+.secimage img, .secimage video {
+    display: block;
+    width: 970px;
+    height: 500px;
+    transition: opacity 0.4s;
+    margin-left: 215px;
+    margin-top: 40px;
+}
+/*@media screen and (min-width: 768px)*/
+   .hH {
+    background: white;
+    box-shadow: 0 8px 40px -20px rgba(0,0,0,0.2);
+    margin-top: -6rem;
+    padding: 1.6rem 3.5rem 1.6rem;
+    text-align: center;
+    width: 55%;
+}
+.hH {
+    /*box-shadow: 0 8px 40px -20px rgba(0,0,0,0.2);
+    padding: 17px 25px 20px;
+    background: white;
+    width: 90%;*/
+    margin: -7% auto 0 auto;
+    position: relative;
+    /*text-align: center;*/
+    line-height: calc(1.4 * 1.2);
+    max-height: 400px;
+}
+a {
+    color: #222;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    word-wrap: break-word;
+}

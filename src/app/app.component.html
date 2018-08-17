@@ -1,8 +1,6 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
-<div style="text-align:center">
-</div>
-<div ng-app="myApp" class="container" ng-controller="customersCtrl">
+
   <!-- <app-create-keg [childKegList]="masterKegList" (sendKeg)="addNewKeg($event)"></app-create-keg> -->
   <!-- <div>
     <h3>Select sort method</h3>
@@ -10,9 +8,26 @@
     <input type="radio" [(ngModel)]="selectedTask.arange" [value]="2"><br>
     <input type="radio" [(ngModel)]="selectedTask.arange" [value]="3">
   </div> -->
-  <app-navbar></app-navbar>
 
-  <app-header></app-header>
-  <app-footer></app-footer>
+<div class="container">
+  <div class="row">
+    <app-header></app-header>
+  </div>
+
+  <div class="row">
+    <app-imageslide1></app-imageslide1>
+  </div>
+
+
+  <div class="row">
+      <app-body></app-body>
+  </div>
+
+
+
+  <div class="row">
+    <app-footer></app-footer>
+  </div>
+
 
 </div>
