@@ -158,22 +158,22 @@ nav{
   margin-left: 60px;
   margin-top: 25px;
 }
-.header{
-  margin-top: 1.071em;
-  border-bottom: none;
-  float: right;
+.top-bar{
+  /*margin-top: 1.071em;*/
+  border-bottom: 1px of dotted black line;
+  /*float: right;*/
 }
 .header li {
   float: left;
   margin: 0.5355em,1.071em,0.5255em,1.071em;
 }
-.user-action, ul, li {
+/*.user-action, ul, li {
   display: inline-block;
   list-style: none;
   padding: 0px;
   position: relative;
   margin-bottom: 10px;
-}
+}*/
 li:hover{
   border-bottom: solid 4px #CA0183;
 }
@@ -203,13 +203,23 @@ z-index: -1;
   background-position: center;
   padding: 20px;
   margin-top: 16px;
-  margin-right: 100px;
+  margin-right: 150px;
   position: absolute;
   right: 40px;
   top: 0;
   vertical-align: top;
   color: #000000;
 
+  /*margin-top: 25%;
+  bottom: 1%;
+  left: 25%;
+  position: relative;
+  width: 10%;
+  vertical-align: bottom;
+  text-align: center;*/
+  font-size: 20px;
+
+padding: 1%
 }
 
 .icons a {
