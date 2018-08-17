@@ -1,9 +1,9 @@
 
-body{
+/*body{
   color: #333;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-};
+};*/
 .container{
   padding-right: 15px;
   padding-left: 15px;
@@ -20,9 +20,7 @@ body{
   margin-left: -15px;
   float: left;
 }
-.col-lg-2{
-  width: 16.666%
-}
+
 .cz {
     color: #9b9b9b;
 }
@@ -107,9 +105,11 @@ a {
       margin-left: 500px;
       text-align: center;
       width: 105px;
-      z-index: 0;
-      transition: background-image 0.3s;
-      position: absolute;
+
+
+
+      /*transition: background-image 0.3s;*/
+        /*position: absolute;*/
 
   }
   .menu img{

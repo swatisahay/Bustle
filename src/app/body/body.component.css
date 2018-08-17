@@ -42,3 +42,33 @@ a {
     text-decoration: none;
     word-wrap: break-word;
 }
+.s img {
+    display: block;
+    width: 282px;
+    height: 190px;
+    transition: opacity 0.4s;
+    margin-top: 100px;
+}
+/*@media screen and (min-width: 768px)*/
+/*.ib .hH, .ic .hH {
+    background: white;
+    box-shadow: 0 8px 20px 10px rgba(0,0,0,0.2);
+    margin-top: -1.2rem;
+    padding: 1rem;
+    width: 282px;
+    position: relative;
+    text-align: center;
+}*/
+.HH .hH {
+     box-shadow: 0 10px 10px -10px rgba(0,0,0,0.2);
+     padding: 17px 25px 20px;
+     background: white;
+     width: 150px;
+     height: 150px;
+    margin: -7% auto 0 auto;
+     position: relative;
+    text-align: center;
+    line-height: calc(1.4 * 1.2);
+    max-height: 400px;
+    margin-left: 10px;
+}

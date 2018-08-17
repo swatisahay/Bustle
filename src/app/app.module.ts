@@ -7,7 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
-import { Imageslide1Component } from './imageslide1/imageslide1.component';
+
 
 
 @NgModule({
@@ -17,7 +17,6 @@ import { Imageslide1Component } from './imageslide1/imageslide1.component';
     HeaderComponent,
     FooterComponent,
     BodyComponent,
-    Imageslide1Component
   ],
   imports: [
     BrowserModule
