@@ -22,7 +22,7 @@ import { BodyComponent } from './body/body.component';
     BodyComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     HttpModule
 
   ],

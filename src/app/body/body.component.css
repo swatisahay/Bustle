@@ -4,7 +4,7 @@
     width: 970px;
     height: 250px;
     margin-top: 300px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
 
 }
 .secimage img, .secimage video {
@@ -12,7 +12,7 @@
     width: 970px;
     height: 500px;
     transition: opacity 0.4s;
-    margin-left: 215px;
+    /* margin-left: 50px; */
     margin-top: 40px;
 }
 /*@media screen and (min-width: 768px)*/
@@ -23,6 +23,7 @@
     padding: 1.6rem 3.5rem 1.6rem;
     text-align: center;
     width: 55%;
+    margin-left: 600px;
 }
 .hH {
     /*box-shadow: 0 8px 40px -20px rgba(0,0,0,0.2);
@@ -71,5 +72,5 @@ a {
     line-height: calc(1.4 * 1.2);
     max-height: 400px;
     margin-left: 10px;
-    
+
 }

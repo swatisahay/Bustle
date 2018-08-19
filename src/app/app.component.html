@@ -1,23 +1,23 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 
-  <!-- <app-create-keg [childKegList]="masterKegList" (sendKeg)="addNewKeg($event)"></app-create-keg> -->
-  <!-- <div>
-    <h3>Select sort method</h3>
-    <input type="radio" [(ngModel)]="selectedTask.arange" [value]="1"><br>
-    <input type="radio" [(ngModel)]="selectedTask.arange" [value]="2"><br>
-    <input type="radio" [(ngModel)]="selectedTask.arange" [value]="3">
-  </div> -->
+<!-- <app-create-keg [childKegList]="masterKegList" (sendKeg)="addNewKeg($event)"></app-create-keg> -->
+<!-- <div>
+<h3>Select sort method</h3>
+<input type="radio" [(ngModel)]="selectedTask.arange" [value]="1"><br>
+<input type="radio" [(ngModel)]="selectedTask.arange" [value]="2"><br>
+<input type="radio" [(ngModel)]="selectedTask.arange" [value]="3">
+</div> -->
 
 <div class="container">
   <div class="row">
     <app-header></app-header>
   </div>
 
-  
+
 
   <div class="row">
-      <app-body></app-body>
+    <app-body></app-body>
   </div>
 
 
@@ -25,6 +25,49 @@
   <div class="row">
     <app-footer></app-footer>
   </div>
+</div>
+<div class="news">
+  <div class="row">
+    <div class="col-md-3">
 
+    </div>
+
+    <div class="col-md-6">
+      <ng-container *ngFor="let article of data.articles">
+
+
+
+       <div *ngIf='article.urlToImage!=null && article.description!=null || article.description!="" && article.title!=null && article.author!=null '>
+        <div class="box">
+
+        <div class="panel panel-default">
+
+
+
+
+          <a href="{{article.url}}"> <h2 class="panel-header t">{{article.title}}</h2>
+
+            <div class="panel-body">
+
+              <div class="pic">
+
+
+                <img src="{{article.urlToImage}}" alt="">
+              </div>
+              <p class="s">{{article.description}}</p>
+              <cite class="h">{{article.author}}</cite>
+            </div>
+          </a>
+
+        </div>
+        </div>
+        </div>
+      </ng-container>
+    </div>
+    <div class="col-md-3">
+
+    </div>
+
+  </div>
 
 </div>
