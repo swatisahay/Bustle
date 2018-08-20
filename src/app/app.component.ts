@@ -11,7 +11,7 @@ import { apiKey } from './env';
 })
 export class AppComponent {
   title = 'app';
-  // private apiUrl = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=a6946e64856b44fdad020dbc4ecd6492'
+
   private apiUrl = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey='+apiKey()
   data: any = {};
   constructor(private http: Http){
