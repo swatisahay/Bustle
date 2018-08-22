@@ -1,0 +1,19 @@
+.box img{
+  /* width: 400px;
+  height: 300px; */
+  float: left;
+  max-width: 50%;
+}
+.box{
+  border: 1px solid white;
+  margin-bottom: 50px;
+  width: 700px;
+  height: 400px;
+  box-shadow: 0 10px 10px -10px rgba(0,0,0,0.2);
+}
+p{
+  color: black;
+}
+.h, .t{
+  color: black;
+}

@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
+import { BusinessApiComponent } from './business-api/business-api.component';
 
 
 
@@ -20,6 +21,7 @@ import { BodyComponent } from './body/body.component';
     HeaderComponent,
     FooterComponent,
     BodyComponent,
+    BusinessApiComponent,
   ],
   imports: [
     BrowserModule,

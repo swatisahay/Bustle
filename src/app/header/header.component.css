@@ -139,7 +139,7 @@ margin: 2% 2% 2% 2%;
   margin-bottom: 50px; */
   opacity: inherit;
   margin-top: 30px;
-  
+
 }
 .row{
   margin: auto;
@@ -152,18 +152,35 @@ margin: 2% 2% 2% 2%;
 }
 .cF {
     cursor: pointer;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     background-color: transparent;
     /* background-image: url(https://cdn.bustle.com/bustle/production/public/search-268eb1.svg); */
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
-    margin-right: 150px;
+    margin-right: 200px;
     position: absolute;
     right: 40px;
     top: 0;
     vertical-align: top;
-    margin-top: 22px;
+    margin-top: 20px;
+
+}
+/* .world img{
+  height:25px;
+  width:25px;
+  margin-left: 250px;
+  margin-top: 20px;
+} */
+
+.topnav img{
+  height: 25px;
+  width: 25px;
+
+}
+
+.fa{
+  color: #D3D3D3;
 }
