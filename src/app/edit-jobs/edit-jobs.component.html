@@ -1,3 +1,20 @@
-<p>
-  edit-jobs works!
-</p>
+<h4>Edit Job</h4>
+
+<label>New Job Title:</label>
+<input [(ngModel)]="selectedJob.title">
+<br>
+
+<label>New Job Description:</label>
+<input [(ngModel)]="selectedJob.description">
+<br>
+<label>New application Deadline:</label>
+<input [(ngModel)]="selectedJob.target">
+<br>
+
+
+<!-- <label>New Job Description:</label>
+<input [(ngModel)]="selectedJob.description"> -->
+
+<button (click)="beginUpdatingJob(selectedJob)">Update</button>
+<hr>
+<button (click)="beginDeletingJob(selectedJob)">Delete</button>

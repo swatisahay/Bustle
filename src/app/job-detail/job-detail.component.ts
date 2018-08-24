@@ -19,14 +19,14 @@ export class JobDetailComponent implements OnInit {
   constructor(
       private route: ActivatedRoute,
       private location: Location,
-      private jobService: BustleService
+      private bustleService: BustleService
     ) {}
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
       this.jobId = urlParameters['id'];
     });
-    this.jobToDisplay = this.jobService.getJobById(this.jobId);
+    this.jobToDisplay = this.bustleService.getJobById(this.jobId);
   }
 
 }
