@@ -11,15 +11,27 @@
   <table>
     <tr>
       <td>
+        <span (mouseenter)="click=true" (mouseleave)="click=false" class="clickItem">
         <a href="/" class="menu">
           <img class="img-responsive" src="assets/images/menu.png">
         </a>
+        <div *ngIf= "click" class ="why">
+          <ul class="info">
+            <li>Entertainment</li>
+            <li>Business</li>
+            <li>Headlines</li>
+            <li>Sports</li>
+          </ul>
+        </div>
+      </span>
       </td>
 
       <td>
+
         <a href="/" class="login">
           <img class="img-responsive" src="assets/images/Bustlelogo.jpg">
         </a>
+
       </td>
       <td>
         <div class="topnav">
