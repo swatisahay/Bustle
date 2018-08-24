@@ -1,15 +1,32 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
+import { Location } from '@angular/common';
+import { Jobs } from '../jobs.model';
+import { BustleService } from '../Bustle.service';
 
 @Component({
   selector: 'app-job-detail',
   templateUrl: './job-detail.component.html',
-  styleUrls: ['./job-detail.component.css']
+  styleUrls: ['./job-detail.component.css'],
+  providers: [BustleService]
+
 })
 export class JobDetailComponent implements OnInit {
 
-  constructor() { }
+  jobId: string;
+  jobToDisplay;
+
+  constructor(
+      private route: ActivatedRoute,
+      private location: Location,
+      private jobService: BustleService
+    ) {}
 
   ngOnInit() {
+    this.route.params.forEach((urlParameters) => {
+      this.jobId = urlParameters['id'];
+    });
+    this.jobToDisplay = this.jobService.getJobById(this.jobId);
   }
 
 }
