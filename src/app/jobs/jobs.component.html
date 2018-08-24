@@ -1,3 +1,14 @@
-<p>
-  jobs works!
-</p>
+<h2>List of jobs</h2>
+
+<div *ngFor="let job of jobs | async" class="card card-default">
+  <div class="card-body">
+    <h3 (click)="goToDetailPage(job)"><em>{{job.title}}</em> </h3>
+    <div *ngIf="currentRoute === '/admin'">
+      Job Description: {{job.description}}
+      <hr>
+      Application deadline: {{job.deadline}}
+      <hr>
+      <app-edit-job [selectedJob]="job"></app-edit-job>
+    </div>
+  </div>
+</div>
