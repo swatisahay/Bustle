@@ -13,7 +13,7 @@ import { BusinessApiComponent } from './business-api/business-api.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
-import { AdvertiseComponent } from './advertise/advertise.component';
+
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -32,7 +32,6 @@ export const firebaseConfig = {
     FooterComponent,
     BodyComponent,
     BusinessApiComponent,
-    AdvertiseComponent,
 
   ],
   imports: [
