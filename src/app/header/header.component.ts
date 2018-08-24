@@ -5,11 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent  {
 
-  constructor() { }
+  openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
 
-  ngOnInit() {
-  }
+  closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
 
 }

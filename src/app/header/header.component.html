@@ -4,67 +4,68 @@
 
 
 
-<div class=" container-fluid">
-  <div class="row">
+  <div class=" container-fluid">
+    <div class="row">
 
 
-  <table>
-    <tr>
-      <td>
-        <span (mouseenter)="click=true" (mouseleave)="click=false" class="clickItem">
-        <a href="/" class="menu">
-          <img class="img-responsive" src="assets/images/menu.png">
-        </a>
-        <div *ngIf= "click" class ="why">
-          <ul class="info">
-            <li>Entertainment</li>
-            <li>Business</li>
-            <li>Headlines</li>
-            <li>Sports</li>
-          </ul>
-        </div>
-      </span>
-      </td>
+      <table>
+        <tr>
+          <td>
 
-      <td>
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+              <a href="/" class="login">
+                <img class="img-responsive" src="assets/images/Bustlelogo.jpg">
+              </a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
 
-        <a href="/" class="login">
-          <img class="img-responsive" src="assets/images/Bustlelogo.jpg">
-        </a>
+            <span style="font-size:30px;cursor:pointer" (click)="openNav()">&#9776;</span>
 
-      </td>
-      <td>
-        <div class="topnav">
+          </td>
 
+          <td>
 
+            <a href="/" class="login">
+              <img class="img-responsive" src="assets/images/Bustlelogo.jpg">
+            </a>
 
-          <a href="https://www.instagram.com/"><i style="font-size:20px color: #d3d3d3" class="fa">&#xf16d;</i></a>
-          <a href="https://www.flickr.com/photos/"><i style="font-size:20px color: #d3d3d3" class="fa">&#xf16e;</i></a>
-          <a href="https://www.youtube.com/user/"><i style="font-size:20px color: #d3d3d3 " class="fa">&#xf167;</i></a>
-          <a href="https://twitter.com/"><i style="font-size:20px color: #d3d3d3" class="fa">&#xf099;</i></a>
-          <a href="https://www.facebook.com/"><i style="font-size:20px color: #d3d3d3" class="fa fa-facebook"></i></a>
-
-          <label for="searchCheckbox" class="cF" tabindex="0"> <img src="assets/images/search.png" alt="">
-          </label>
-          <!-- <a href="/" class="world">
-            <img src="assets/images/world.png"  alt="">
-          </a> -->
-
-        </div>
-
-
-      </td>
+          </td>
+          <td>
+            <div class="topnav">
 
 
 
+              <a href="https://www.instagram.com/"><i style="font-size:20px color: #d3d3d3" class="fa">&#xf16d;</i></a>
+              <a href="https://www.flickr.com/photos/"><i style="font-size:20px color: #d3d3d3" class="fa">&#xf16e;</i></a>
+              <a href="https://www.youtube.com/user/"><i style="font-size:20px color: #d3d3d3 " class="fa">&#xf167;</i></a>
+              <a href="https://twitter.com/"><i style="font-size:20px color: #d3d3d3" class="fa">&#xf099;</i></a>
+              <a href="https://www.facebook.com/"><i style="font-size:20px color: #d3d3d3" class="fa fa-facebook"></i></a>
 
+              <label for="searchCheckbox" class="cF" tabindex="0"> <img src="assets/images/search.png" alt="">
+              </label>
+              <!-- <a href="/" class="world">
+              <img src="assets/images/world.png"  alt="">
+            </a> -->
+
+          </div>
+
+
+        </td>
 
 
 
 
 
-    </tr>
-  </table>
+
+
+
+
+      </tr>
+    </table>
   </div>
 
 </div>
