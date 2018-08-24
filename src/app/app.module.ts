@@ -13,6 +13,9 @@ import { BusinessApiComponent } from './business-api/business-api.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { JobDetailComponent } from './job-detail/job-detail.component';
+import { EditJobsComponent } from './edit-jobs/edit-jobs.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 export const firebaseConfig = {
@@ -32,6 +35,9 @@ export const firebaseConfig = {
     FooterComponent,
     BodyComponent,
     BusinessApiComponent,
+    JobDetailComponent,
+    EditJobsComponent,
+    AdminComponent,
 
   ],
   imports: [
