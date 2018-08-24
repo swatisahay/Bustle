@@ -1,0 +1,16 @@
+{ "articles": [{
+          "author": "Josh Frigerio",
+          "title": "White Castle to open its first restaurant in Arizona in 2019",
+          "description": "White Castle has announced plans to open a restaurant in Arizona",
+          "url": "https://www.abc15.com/entertainment/events/white-castle-to-open-its-first-restaurant-in-arizona-in-2019",
+          "urlToImage": "https://mediaassets.abc15.com/photo/2018/08/24/poster_f0698a48366e4a25bd8ac81a2c11b0ea_95648392_ver1.0_640_480.png",
+          "publishedAt": "2018-08-24T18:59:25Z"
+    }, {
+              "author": "Lora Kolodny",
+              "title": "Tesla had a fire in its Fremont factory on Thursday night",
+              "description": "Tesla experienced another fire at its Fremont, California car plant on Thursday night.",
+              "url": "https://www.cnbc.com/2018/08/24/tesla-says-fremont-factory-running-normally-after-fire.html",
+              "urlToImage": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/08/24/105415638-1535133716529tesla-fire.1910x1000.jpeg",
+              "publishedAt": "2018-08-24T18:12:25Z"
+      }]
+}
