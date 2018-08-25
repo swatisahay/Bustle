@@ -17,7 +17,7 @@ import { JobDetailComponent } from './job-detail/job-detail.component';
 import { EditJobsComponent } from './edit-jobs/edit-jobs.component';
 import { AdminComponent } from './admin/admin.component';
 import { JobsComponent } from './jobs/jobs.component';
-import { BustleService } from './bustle.service';
+
 
 
 
@@ -42,7 +42,7 @@ export const firebaseConfig = {
     EditJobsComponent,
     AdminComponent,
     JobsComponent,
-    BustleService
+
 
   ],
   imports: [
@@ -54,7 +54,7 @@ export const firebaseConfig = {
     AngularFireDatabaseModule
 
   ],
-  providers: [AppComponent],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

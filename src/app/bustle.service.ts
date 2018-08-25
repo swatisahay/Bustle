@@ -1,24 +1,23 @@
 import { Injectable } from '@angular/core';
-import { Jobs } from './jobs.model';
+import { Job } from './job.model';
 
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
 export class BustleService {
 
-  career: FirebaseListObservable<any[]>;
+  careers: FirebaseListObservable<any[]>;
   constructor(private database: AngularFireDatabase) {
-  this.career = database.list('pages');
+  this.careers = database.list('pages');
   }
 
   getJobs() {
-    return this.career;
+    return this.careers;
   }
 
-  addJob(newJob: Jobs) {
-    this.career.push(newJob);
+  addJob(newJob: Job) {
+    this.careers.push(newJob);
   }
-
   getJobById(pageId: string){
   return this.database.object('/pages/' + pageId);
   }

@@ -1,5 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
-import { BustleService } from '../Bustle.service';
+import { Component, Input } from '@angular/core';
+import { BustleService } from '../bustle.service';
 
 @Component({
   selector: 'app-edit-jobs',
@@ -7,14 +7,13 @@ import { BustleService } from '../Bustle.service';
   styleUrls: ['./edit-jobs.component.css'],
   providers: [BustleService]
 })
-export class EditJobsComponent implements OnInit {
+export class EditJobsComponent {
 
   @Input() selectedJob;
 
 constructor(private bustleService: BustleService) { }
 
-ngOnInit() {
-}
+
 
 beginUpdatingPage(jobToUpdate){
   this.bustleService.updateJob(jobToUpdate);

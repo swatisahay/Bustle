@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Location } from '@angular/common';
-import { Jobs } from '../jobs.model';
-import { BustleService } from '../Bustle.service';
+import { Job } from '../job.model';
+import { BustleService } from '../bustle.service';
 
 @Component({
   selector: 'app-job-detail',

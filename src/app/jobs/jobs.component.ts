@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Jobs } from '../jobs.model';
+import { Job } from '../job.model';
 import { Router } from '@angular/router';
 import { BustleService } from '../bustle.service';
 import { FirebaseListObservable } from 'angularfire2/database';
