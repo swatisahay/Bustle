@@ -20,7 +20,7 @@ const appRoutes: Routes = [
    },
    {
      path: 'jobs/:id',
-     component: JobsComponent
+     component: JobDetailComponent
    },
    {
      path: 'admin',

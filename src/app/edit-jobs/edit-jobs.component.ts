@@ -15,11 +15,11 @@ constructor(private bustleService: BustleService) { }
 
 
 
-beginUpdatingPage(jobToUpdate){
+beginUpdatingJob(jobToUpdate){
   this.bustleService.updateJob(jobToUpdate);
 }
 
-beginDeletingPage(jobToDelete){
+beginDeletingJob(jobToDelete){
   if(confirm("Are you sure you want to delete this item from the inventory?")){
     this.bustleService.deleteJob(jobToDelete);
   }
