@@ -24,7 +24,7 @@ export class BustleService {
 
   updateJob(localUpdatedJob){
     var jobEntryInFirebase = this.getJobById(localUpdatedJob.$key);
-    jobEntryInFirebase.update({title: localUpdatedJob.title, description: localUpdatedJob.artist, deadline: localUpdatedJob.deadline});
+    jobEntryInFirebase.update({title: localUpdatedJob.title, description: localUpdatedJob.description, deadline: localUpdatedJob.deadline});
   }
 
   deleteJob(localJobToDelete){
