@@ -12,13 +12,13 @@ import { FirebaseListObservable } from 'angularfire2/database';
 })
 export class JobsComponent implements OnInit {
 
-  careers: FirebaseListObservable<any[]>;
+  jobs: FirebaseListObservable<any[]>;
      currentRoute: string = this.router.url;
 
      constructor(private router: Router, private bustleService: BustleService){}
 
      ngOnInit(){
-       this.careers = this.bustleService.getJobs();
+       this.jobs = this.bustleService.getJobs();
      }
 
      goToDetailJobs(clickedJob) {

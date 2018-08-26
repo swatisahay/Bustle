@@ -13,10 +13,13 @@ import { BusinessApiComponent } from './business-api/business-api.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { WelcomeComponent } from './welcome/welcome.component';
 import { JobDetailComponent } from './job-detail/job-detail.component';
 import { EditJobsComponent } from './edit-jobs/edit-jobs.component';
+
 import { AdminComponent } from './admin/admin.component';
 import { JobsComponent } from './jobs/jobs.component';
+
 
 
 
@@ -36,12 +39,14 @@ export const firebaseConfig = {
     NavbarComponent,
     HeaderComponent,
     FooterComponent,
+    WelcomeComponent,
     BodyComponent,
     BusinessApiComponent,
     JobDetailComponent,
     EditJobsComponent,
     AdminComponent,
     JobsComponent,
+
 
 
   ],

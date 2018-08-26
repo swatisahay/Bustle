@@ -6,20 +6,20 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 @Injectable()
 export class BustleService {
 
-  careers: FirebaseListObservable<any[]>;
+  jobs: FirebaseListObservable<any[]>;
   constructor(private database: AngularFireDatabase) {
-  this.careers = database.list('pages');
+  this.jobs = database.list('jobs');
   }
 
   getJobs() {
-    return this.careers;
+    return this.jobs;
   }
 
   addJob(newJob: Job) {
-    this.careers.push(newJob);
+    this.jobs.push(newJob);
   }
-  getJobById(pageId: string){
-  return this.database.object('/pages/' + pageId);
+  getJobById(jobId: string){
+  return this.database.object('/jobs/' + jobId);
   }
 
   updateJob(localUpdatedJob){
